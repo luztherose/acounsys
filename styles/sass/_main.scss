@@ -1,0 +1,46 @@
+h2 {
+  font-size: 3.7vw;
+  padding: 1.5rem 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.service-section {
+  padding: 3rem;
+  .service-section-articles {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+    h3 {
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    .service-desc-text {
+      background-color: $top-contact-bg-color;
+      padding: 2rem;
+      text-align: center;
+    }
+  }
+}
+
+.service-section-articles {
+  mark {
+    background-color: transparent;
+    border-bottom: 2px solid $highlight-color;
+  }
+}
+.products-section {
+  padding: 3rem;
+  .products-img-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    grid-gap: 1rem;
+  }
+  .img-bottom-text {
+    text-align: center;
+    background-color: $highlight-color;
+    color: $primary-color;
+    padding: 0.5rem;
+    text-transform: uppercase;
+  }
+}
